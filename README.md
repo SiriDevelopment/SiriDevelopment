@@ -1,2 +1,2 @@
-# baronbot.github.io
-Website for Baron, a League of Legends Discord bot.
+# siridevelopment.github.io
+Website for SiriDevelopment, a project recreating atrificial intelligent bots in discord.
