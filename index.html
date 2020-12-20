@@ -1,327 +1,120 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+DOCTYPE html>
+
+<html>
 
 <head>
-    <title>Siri Development creating your discord future.</title>
-    <meta property="og:title" content="SiriDevelopment creating your discord future." />
-    <meta property="og:url" content="https://baronbot.github.io/" />
-    <meta property="og:image" content="https://i.imgur.com/vfq5UJX.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Baron Bot" />
-    <meta property="og:keywords" content="Siri,Siri Bot,Discord Bot,Arteficial Discord bot,Apple Discord Bot" />
-    <meta property="og:description" content="Siri Development. Siri Development is a team that we strive to build artificial intelligent bots in discord, we've been working on two great bots for you to use and play with."/>
-    <meta name="description" content="Siri Development. Siri Development is a team that we strive to build artificial intelligent bots in discord, we've been working on two great bots for you to use and play with." />
-    <meta name="theme-color" content="#da259d">
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://typicalbot.com/">
+    <meta property="og:title" content="TypicalBot – The Ultimate Discord Bot">
+    <meta property="og:description"
+        content="Built upon over a year of experience, TypicalBot is the ironically-named bot that is far from typical.">
+    <meta property="og:site_name" content="TypicalBot">
+    <meta property="og:image" content="https://typicalbot.com/x/images/icon.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="/x/images/icon.png" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/x/style.css">
+    <link rel="stylesheet" href="/x/home-page.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-POYwD7xcktv3gUeZO5s/9nUbRJG/WOmV6jfEGikMJu77LGYO8Rfs2X7URG822aum" crossorigin="anonymous">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M3RGTLLLRJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    <meta name="google-site-verification" content="sLzWNhG3DrTgOrAvvqsnv9XjnZKrQGZqTkT7OlyIAac" />
-
-    <meta name="viewport" content="width=device-width">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="lightbox/css/lightbox.css" rel="stylesheet">
-    <link rel="stylesheet" href="scroller/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="modal/modal.css">
+        gtag('config', 'G-M3RGTLLLRJ');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <title>Home – TypicalBot</title>
 </head>
 
 <body>
-    <div id="firstDiv">
-        <div class="topBar">
-            <a class="topBar-Title" style="float: left;">SIRI DEVELOPMENT</a>
-            <img src="/imgs/Avatar.png" class="topBarImg">
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="/"><img src="/x/images/icon.png" class="align-top">TypicalBot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="content">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/documentation">Documentation</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link" href="/invite">Add TypicalBot</a></li>
+                <li class="nav-item"><a class="nav-link" href="/join-us">Join the Server</a></li>
+                <li class="nav-item"><a class="nav-link" href="/donate">Donate</a></li>
+            </ul>
+        </div>
+    </nav>
 
-            <div class="lang-dropdown">
-                <div class="dropbtn"><img class="dropbtn-img" src="https://image.ibb.co/kfd1A9/United_Kingdom.png"><span
-                        class="dropbtn-txt">English</span><span class="dropbtn-arrow">&emsp;▼</span></div>
-                <div class="dropdown-content">
-                    <a locale="en"><li><img src="https://image.ibb.co/kfd1A9/United_Kingdom.png" /><span class="lang-name">English</span></li></a>
-                    <a locale="de"><li><img src="https://image.ibb.co/d0MQKK/Germany.png" /><span class="lang-name">Deutsch</span></li></a>
-                    <a locale="es"><li><img src="https://image.ibb.co/f3dexp/Spain.png" /><span class="lang-name">Español</span></li></a>
-                    <a locale="fr"><li><img src="https://image.ibb.co/fwgzxp/France.png" /><span class="lang-name">Français</span></li></a>
-                    <a locale="gr"><li><img src="https://i.ibb.co/sPx7gWk/Grecee.png" /><span class="lang-name">Ελληνικά</span></li></a>
-                    <a locale="hu"><li><img src="https://image.ibb.co/dkHuV9/Hungary.png" /><span class="lang-name">Magyar</span></li></a>
-                    <a locale="nl"><li><img src="https://image.ibb.co/jhmoq9/Netherlands.png" /><span class="lang-name">Nederlands</span></li></a>
-                    <a locale="pl"><li><img src="https://image.ibb.co/e5q3OU/Poland.png" /><span class="lang-name">Polski</span></li></a>
-                    <a locale="br"><li><img src="https://image.ibb.co/ezMMA9/Brazil.png" /><span class="lang-name">Português</span></li></a>
-                    <a locale="pt"><li><img src="https://image.ibb.co/cuRzxp/Portugal.png" /><span class="lang-name">Português</span></li></a>
-                    <a locale="ar"><li><img src="https://image.ibb.co/ktB5Mp/Egypt.png" /><span class="lang-name">العربية</span></li></a>
-                    <a locale="tr"><li><img src="https://i.ibb.co/pjPcRQt/Turkey.png" /><span class="lang-name">Türkçe</span></li></a>
-                    <a locale="ru"><li><img src="https://image.ibb.co/iq8ZV9/Russia.png" /><span class="lang-name">Русский язык</span></li></a>
-                    <a locale="kr"><li><img src="https://i.ibb.co/zmvBmM3/Korea.png" /><span class="lang-name">한국어</span></li></a>
+    <div id="landing" class="content container">
+        <div class="buttons">
+            <a href="/join-us">
+                <div class="button">
+                    <i class="fab fa-discord"></i>
                 </div>
-            </div>
+            </a>
+            <a href="https://www.twitter.com/Typical_Bot">
+                <div class="button">
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </a>
+            <a href="https://www.github.com/TypicalBot">
+                <div class="button">
+                    <i class="fab fa-github"></i>
+                </div>
+            </a>
+        </div>
+        <div class="top">
+            <img src="https://typicalbot.com/x/typicalbot.svg" height="250px" width="250px">
 
-            <div translate="topbar.getBaron" class="topBar-GetSiri"></div>
-            <div translate="topbar.getBaron" class="topBar-GetAlexa"></div>
-            <div translate="topbar.commands" class="topBar-Commands"></div>
-            <div translate="topbar.about" class="topBar-About"></div>
         </div>
-        <div class="firstDiv-Center">
-            <div class="baronImage">
-                <img src="imgs/WebsiteImageWithLangs.png?1">
+        <div class="center">
+            <h1 class="title">TypicalBot</h1>
+            <h2 class="subtitle">Built upon over a year of experience, </h2>
+            <h2 class="subtitle">TypicalBot is the ironically-named bot that is far from typical.</h2>
+            <a class="big-button" href="/invite">Add TypicalBot</a>
+            <a class="small-button" href="/documentation">View Documentation </a>
+        </div>
+        <div class="bottom">
+            <div class="join-us" onclick="window.location = '/join-us'">
+                <i class="fab fa-discord"></i>
+                <p>Join Our Server</p>
             </div>
-            <div class="stats">
-                <div class="statsServers">
-                    <div><span class="statsTitle" translate="stats.servers"></span>
-                        <br><span class="statsServersNum num"></span></div>
-                </div>
-                <div class="statsUsers">
-                    <div><span class="statsTitle" translate="stats.users"></span>
-                        <br><span class="statsUsersNum num"></span></div>
-                </div>
-                <div class="statsChannels">
-                    <div><span class="statsTitle" translate="stats.channels"></span>
-                        <br><span class="statsChannelsNum num"></span></div>
-                </div>
-            </div>
-        </div>
-        <a href="https://discord.gg/9zbTmrE" target="_blank"><img href="https://discord.gg/9zbTmrE" src="https://discord.com/api/guilds/716269965862240338/widget.json" class="discordServerImg"></a>
-    </div>
-    <div id="about">
-        <div class="aboutWrapper">
-            <p translate="about.title" class="aboutTitle"></p>
-            <p translate="about.description" class="aboutContent"></p>
-        </div>
-    </div>
-    <div id="about" style="background-image: url(./imgs/rs_banner.png); background-position: center">
-        <div class="aboutWrapper">
-            <p class="aboutTitle">BOT FEATURES</p>
-            <p>Looking for what our bots can offer?</p>
-            <br>
-            <p style="padding-bottom: 50px;">Check out <a href="https://runespirit.github.io/" target="_blank" style="color: white; text-decoration: underline;"><b>Runespirit</b></a>, and Baron's baby brother!</p>
-        </div>
-    </div>
-    <div id="commands">
-        <div class="tabela">
-            <p translate="commands.title" class="commandsTitle"></p>
-            <table>
-                <thead>
-                    <tr>
-                        <th translate="commands.commands" scope="col"></th>
-                        <th translate="commands.description" scope="col"></th>
-                        <th translate="commands.usage" scope="col"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b</td>
-                        <td translate="commandsDesc.baron" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.baron" href="command_examples/baron.png" data-lightbox="baron"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b ability</td>
-                        <td translate="commandsDesc.ability" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.ability" href="command_examples/ability.png" data-lightbox="ability"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b add/remove</td>
-                        <td translate="commandsDesc.add-remove" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.add-remove" href="command_examples/addRemove.png" data-lightbox="addRemove"></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b bans</td>
-                        <td translate="commandsDesc.bans" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.bans" href="command_examples/bans.png" data-lightbox="bans"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b best</td>
-                        <td translate="commandsDesc.best" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.best" href="command_examples/best.png" data-lightbox="best"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b champion</td>
-                        <td translate="commandsDesc.champion" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.champion" href="command_examples/champion.png" data-lightbox="champion"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b counters</td>
-                        <td translate="commandsDesc.counters" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.counters" href="command_examples/counters.png" data-lightbox="counters"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b disable/enable</td>
-                        <td translate="commandsDesc.disable-enable" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.disable-enable" href="command_examples/disableEnable.png" data-lightbox="disableEnable"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b help</td>
-                        <td translate="commandsDesc.help" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.help" href="command_examples/help.png" data-lightbox="help"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b info</td>
-                        <td translate="commandsDesc.info" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.info" href="command_examples/info.png" data-lightbox="info"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b invite</td>
-                        <td translate="commandsDesc.invite" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.invite" href="command_examples/invite.png" data-lightbox="invite"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b item</td>
-                        <td translate="commandsDesc.item" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.item" href="command_examples/item.png" data-lightbox="item"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b language</td>
-                        <td translate="commandsDesc.language" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.language" href="command_examples/language.png" data-lightbox="language"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b lastplayed</td>
-                        <td translate="commandsDesc.lastplayed" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.lastplayed" href="command_examples/lastplayed.png" data-lightbox="lastplayed"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b live</td>
-                        <td translate="commandsDesc.live" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.live" href="command_examples/live.png" data-lightbox="live"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b mastery</td>
-                        <td translate="commandsDesc.mastery" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.mastery" href="command_examples/mastery.png" data-lightbox="mastery"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b patchnotes</td>
-                        <td translate="commandsDesc.patchnotes" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.patchnotes" href="command_examples/patchnotes.png" data-lightbox="patchnotes"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b playlists</td>
-                        <td translate="commandsDesc.playlists" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.playlists" href="command_examples/playlists.png" data-lightbox="profile"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b profile</td>
-                        <td translate="commandsDesc.profile" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.profile" href="command_examples/profile.png" data-lightbox="profile"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b rotation</td>
-                        <td translate="commandsDesc.rotation" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.rotation" href="command_examples/rotation.png" data-lightbox="rotation"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b rune</td>
-                        <td translate="commandsDesc.rune" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.rune" href="command_examples/rune.png" data-lightbox="rune">!</a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b sales</td>
-                        <td translate="commandsDesc.sales" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.sales" href="command_examples/sales.png" data-lightbox="sales"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b serverupdates</td>
-                        <td translate="commandsDesc.serverupdates" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.serverupdates" href="command_examples/serverupdates.png" data-lightbox="serverupdates">!</a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b skins</td>
-                        <td translate="commandsDesc.skins" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.skins" href="command_examples/skins.png" data-lightbox="skins"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b status</td>
-                        <td translate="commandsDesc.status" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.status" href="command_examples/status.png" data-lightbox="status"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b streams</td>
-                        <td translate="commandsDesc.streams" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.streams" href="command_examples/streams.png" data-lightbox="status"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b synergy</td>
-                        <td translate="commandsDesc.synergy" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.synergy" href="command_examples/synergy.png" data-lightbox="status"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b tips</td>
-                        <td translate="commandsDesc.tips" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.tips" href="command_examples/tips.png" data-lightbox="tips"></a></td>
-                    </tr>
-                    <tr class="slightlyColored">
-                        <td data-label="Command" class="pinkBg">!b topplayers</td>
-                        <td translate="commandsDesc.topplayers" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.topplayers" href="command_examples/topplayers.png" data-lightbox="topplayers"></a></td>
-                    </tr>
-                    <tr>
-                        <td data-label="Command" class="pinkBg">!b ultimatebravery</td>
-                        <td translate="commandsDesc.ultimatebravery" data-label="Description"></td>
-                        <td data-label="Usage"><a translate="commandsUsage.ultimatebravery" href="command_examples/ultimatebravery.png" data-lightbox="ultimatebravery"></a></td>
-                    </tr>
-                </tbody>
-            </table>
-            <br>
-            <br>
-        </div>
-    </div>
-    <!-- <div id="about" style="background-image: url(./imgs/giveaway_bg.png);">
-        <div class="aboutWrapper">
-            <p class="aboutTitle">GIVEAWAY</p>
-            <p>We're running a <b style="text-decoration: underline; text-underline-position: under;">HUGE giveaway</b> with multiple winners that includes <b style="text-decoration: underline; text-underline-position: under;">200.000 RP and 100 months of Nitro</b>. And much more!</p>
-            <br>
-            <p style="padding-bottom: 50px;"><a href="https://gleam.io/4f78h/players-republik-loltft-giveaway" target="_blank" style="font-weight: bold; font-size: 25px; color: white">ENTER HERE!</a></p>
-        </div>
-    </div> -->
-    <div id="about">
-        <div class="aboutWrapper">
-            <p translate="contact.title" class="aboutTitle"></p>
-            <br>
-            <p translate="contact.description" class="aboutContent"></p>
-            <a href="https://discord.gg/9zbTmrE" target="_blank"><img href="https://discord.gg/9zbTmrE" src="https://discordapp.com/api/guilds/265503362739339274/embed.png" style="margin-bottom: 30px;"></a>
-        </div>
-    </div>
-    <footer>
-        <p translate="footer.text"></p>
-        <div class="translationsDiv btn trigger" style="cursor: pointer;">
-            <img src="imgs/languagesIcon.png" style="height: 20px; margin-bottom: 7px; vertical-align: top; margin-right: 5px;"><span style="font-family: FontRegular; font-size: 0.95em;">Translations</span>
-        </div>
-        <a target="_blank" href="https://discordbots.org/bot/240482527695994880">
-            <img src="https://discordbots.org/api/widget/lib/240482527695994880.svg?noavatar=true" alt="Discord Music Bot" />
-        </a>
-        <br>
-        <br>
-        <p>Siri Development is not endorsed or sposered by Apple and never will be. Apple has full copyright over their name and dosen't reflect the company. Apple is trademarks or registered trademarks of Apple, Inc. Apple © Apple, Inc.</p>
-    </footer>
-
-    <!-- Translators modal. -->
-    <div class="modal-wrapper">
-        <div class="modal">
-            <div class="head">
-                <span>Thank you!</span>
-                <a class="btn-close trigger"></a>
-            </div>
-            <div class="content">
-                <p>Thank you very much to every single one of you that helped Siri Development Bots grow, and by doing so, we have reached many communities!</p>
-                <div class="translatorsListWrapper">
-                    <div class="translatorsList translatorsList1"></div>
-                    <div class="translatorsList translatorsList2"></div>
-                </div>
+            <div class="mobile-buttons">
+                <a href="/join-us">
+                    <div class="button">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                </a>
+                <a href="https://www.twitter.com/Typical_Bot">
+                    <div class="button">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </a>
+                <a href="https://www.github.com/TypicalBot">
+                    <div class="button">
+                        <i class="fab fa-github"></i>
+                    </div>
+                </a>
+                <a href="https://discordbots.org/bot/153613756348366849"
+                    style="right: 0;margin-right: 40px;margin-left: auto;">
+                    <img
+                        src="https://discordbots.org/api/widget/status/153613756348366849.png?noavatar=true&amp;lefttextcolor=fff&amp;righttextcolor=fff">
+                </a>
             </div>
         </div>
+
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
-    <script src="lightbox/js/lightbox.js"></script>
-    <script src="scroller/perfect-scrollbar.js"></script>
-    <script src="script.js"></script>
-
-    <script type="text/javascript">
-        (function(t,l){
-            let w=window,d=document,s=d.createElement('script'),f=d.getElementsByTagName('script')[0];
-            w[t]=w[t]||function(){(w["_rgea"]=w["_rgea"]||[["uts",new Date()]]).push(Array.prototype.slice.call(arguments));w.RGEA&&w.RGEA.p();};
-            s.type='text/javascript'; s.async=true; s.defer=true; s.src=l; f.parentNode.insertBefore(s,f);
-        })("rgea", "https://static.developer.riotgames.com/js/rgea.min.js");
-    
-        rgea("propertyId", "RGEA0002-4d189a32-4b66-4f9b-8a2a-e7c1dae791c6");
-        //rgea("uid", "puuid"); // assuming the user is verified; encrypted puuid
-        //rgea("lolpid", "platformId"); // league platform id (na1, la2, euw1, kr, etc)
-        //rgea("lolaid", "accountId"); // assuming the user is verified; encrypted account id
-        rgea("anonymous", false); // defaults to true
-    </script>    
 </body>
+
 </html>
